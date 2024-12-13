@@ -1,11 +1,16 @@
 package spring.miage.dice.entity;
 
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.RequiredArgsConstructor;
 
 import java.time.LocalDateTime;
 import java.util.List;
 
 @Entity
+@Getter
+@NoArgsConstructor
 public class DiceRollLog {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -23,19 +28,5 @@ public class DiceRollLog {
         this.rollingTime = rollingTime;
     }
 
-    public Long getId() {
-        return id;
-    }
 
-    public int getDiceCount() {
-        return diceCount;
-    }
-
-    public List<Integer> getDiceValues() {
-        return diceValues;
-    }
-
-    public LocalDateTime getRollingTime() {
-        return rollingTime;
-    }
 }

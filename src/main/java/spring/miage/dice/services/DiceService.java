@@ -18,6 +18,7 @@ public class DiceService {
     @Autowired
     private DiceRepository diceRepository;
 
+    // Method to roll the dice
     public List<Integer> roll(int n) {
         List<Integer> values = new ArrayList<>();
         for (int i = 0; i < n; i++) {

@@ -1,0 +1,12 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: dice
+
+swagger:
+  api-docs:
+    path: /v3/api-docs
+  ui:
+    path: /swagger-ui.html

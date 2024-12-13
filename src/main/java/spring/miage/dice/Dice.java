@@ -1,18 +1,19 @@
 package spring.miage.dice;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
 import org.springframework.stereotype.Component;
 
 import java.util.Random;
 
 @Component
+@Getter
+@NoArgsConstructor
 public class Dice {
     // Class to simulate a dice
     private int value;
 
-    public Dice() {
-        // Constructor
-        this.value = 0;
-    }
 
     public int roll() {
         // Method to roll the dice
@@ -20,8 +21,4 @@ public class Dice {
         return this.value;
     }
 
-    public int getValue() {
-        // Method to get the value of the dice
-        return this.value;
-    }
 }
