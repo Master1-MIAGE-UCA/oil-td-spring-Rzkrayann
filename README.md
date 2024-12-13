@@ -1,7 +1,7 @@
 # Projet "Dice" - Gestion de lancés de dés avec Spring Boot
 
 ## Objectif
-l'objectif de ce projet est de créer une API REST permettant de gérer des lancés de dés.
+L'objectif de ce projet est de créer une API REST permettant de gérer des lancés de dés.
 
 ## Technologies
 - **Framework principal** : Spring Boot
@@ -24,3 +24,7 @@ l'objectif de ce projet est de créer une API REST permettant de gérer des lanc
 - Cloner le projet "https://github.com/Master1-MIAGE-UCA/oil-td-spring-Rzkrayann.git"
 - Utilisez la commande à la racine du projet `.\mvnw spring-boot:run` pour lancer le projet.
 - Accédez aux adresses mentionnées ci-dessus pour utiliser les différentes fonctionnalités.
+
+## Bonus
+- **Documentation API** : Swagger
+- **Simplification de code** : Lombok
